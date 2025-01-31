@@ -291,7 +291,7 @@ int FindHydrogenBonds(CHAIN **Chain, int NChain, HBOND **HBond, COMMAND *Cmd)
   BOOLEAN *BondedDonor, *BondedAcceptor;
   int NDnr=0, NAcc=0;
   int dc, ac, ccd, cca, cc, hc=0, i;
-  void (*HBOND_Energy)();
+  void (*HBOND_Energy)(float *coord1, float *coord2, float *coord3, float *coord4, float *coord5, COMMAND *Cmd, HBOND *hbond);
   BUFFER Text;
 
   Dnr = (DONOR **)ckalloc(MAXDONOR*sizeof(DONOR *));
