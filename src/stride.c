@@ -1,7 +1,5 @@
 #include "stride.h"
 
-/* #include <console.h> */  /* For Macintosh only, see readme.mac */
-
 int main(int argc, char **argv)
 {
 
@@ -12,7 +10,6 @@ int main(int argc, char **argv)
   float **PhiPsiMapHelix, **PhiPsiMapSheet;
   register int i;
 
-  /* argc = ccommand(&argv); */ /* For Macintosh only, see readme.mac */
 
 
 
