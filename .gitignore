@@ -2,3 +2,6 @@
 *.o
 *.pyc
 src/stride
+.DS_Store
+
+stride
