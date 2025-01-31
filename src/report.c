@@ -50,7 +50,7 @@ void ReportGeneral(CHAIN **Chain, FILE *Out)
   Glue(Bf,"REM  --------------------------------------------------------------------",Out);
   Glue(Bf,"REM",Out);
   Glue(Bf,"REM  STRIDE: Knowledge-based secondary structure assignment",Out);
-  Glue(Bf,"REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995",Out);
+  Glue(Bf,"REM  Please cite: D.Frishman & P.Argos, Proteins 23, 566-579, 1995",Out);
   Glue(Bf,"REM",Out);
   Glue(Bf,"REM  Residue accessible surface area calculation",Out);
   Glue(Bf,"REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 ",Out);
